@@ -28,7 +28,9 @@ const LandingScreen: React.FC = () => (
           padding={{base: 6, md: 12}}
           spacing={4}
         >
-          <Heading>Hay Tiendas</Heading>
+          <Heading>
+            <Image position="absolute" src="/logo.png" width="200px" /> 
+          </Heading>
         </Stack>
         <Box
           display={{base: "none", md: "inherit"}}

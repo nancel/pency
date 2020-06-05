@@ -3,7 +3,7 @@ import {Tenant} from "./types";
 export const DEFAULT_TENANT: Omit<Tenant, "id" | "slug"> = {
   phone: "5491173694572",
   color: "cyan",
-  title: "Pency - Tu tienda online fácil",
+  title: "Hay Tiendas",
   description: "Armá tu tienda y recibí los pedidos via WhatsApp",
   instagram: "",
   facebook: "",
@@ -13,7 +13,7 @@ export const DEFAULT_TENANT: Omit<Tenant, "id" | "slug"> = {
   category: "",
   highlight: "",
   fields: [],
-  keywords: "pency, tienda, online, whatsapp, delivery, pedidos",
+  keywords: "haytiendas, tienda, online, whatsapp, delivery, pedidos",
 };
 
 export const CATEGORIES = [

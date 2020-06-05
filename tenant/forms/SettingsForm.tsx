@@ -64,7 +64,7 @@ const SettingsForm: React.FC<Props> = ({defaultValues = {}, children, onSubmit})
             <Controller as={ColorRadio} control={control} name="color" rules={{required: true}} />
           </FormControl>
           <FormControl label="Nombre de tu negocio" name="title">
-            <Input ref={register} name="title" placeholder="Pastelerías Pency" />
+            <Input ref={register} name="title" placeholder="Pastelerías" />
           </FormControl>
           <FormControl
             error={errors.description && "Máximo 140 caracteres"}
@@ -115,7 +115,7 @@ const SettingsForm: React.FC<Props> = ({defaultValues = {}, children, onSubmit})
                   value.includes("instagram.com") ? "Solo el usuario, no el link completo" : true,
               })}
               name="instagram"
-              placeholder="pencyapp"
+              placeholder="haytiendas"
             />
           </FormControl>
           <FormControl error={errors?.facebook?.message} label="Página de Facebook" name="facebook">
@@ -125,7 +125,7 @@ const SettingsForm: React.FC<Props> = ({defaultValues = {}, children, onSubmit})
                   value.includes("facebook.com") ? "Solo el usuario, no el link completo" : true,
               })}
               name="facebook"
-              placeholder="pencyapp"
+              placeholder="haytiendas"
             />
           </FormControl>
           <FormControl error={errors?.twitter?.message} label="Usuario de Twitter" name="twitter">
@@ -135,7 +135,7 @@ const SettingsForm: React.FC<Props> = ({defaultValues = {}, children, onSubmit})
                   value.includes("twitter.com") ? "Solo el usuario, no el link completo" : true,
               })}
               name="twitter"
-              placeholder="pencyapp"
+              placeholder="haytiendas"
             />
           </FormControl>
           <FormControl label="Logo" name="logo">
